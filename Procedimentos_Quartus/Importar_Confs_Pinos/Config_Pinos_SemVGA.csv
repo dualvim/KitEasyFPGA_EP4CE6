@@ -1,0 +1,107 @@
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# File: C:\Arduino_RPi_IoT\FPGA\FPGA_Cyclone\Exemplo_Teste_Nios2\Config_Pinos_SemVGA.csv
+# Generated on: Wed Mar 03 01:05:30 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Current Strength,Slew Rate
+DIG[3],Output,PIN_137,8,B8_N0,PIN_137,2.5 V,,
+DIG[2],Output,PIN_136,8,B8_N0,PIN_136,2.5 V,,
+DIG[1],Output,PIN_135,8,B8_N0,PIN_135,2.5 V,,
+DIG[0],Output,PIN_133,8,B8_N0,PIN_133,2.5 V,,
+FPGA_BUZZER,Output,PIN_110,7,B7_N0,PIN_110,2.5 V,,
+FPGA_CLK,Input,PIN_23,1,B1_N0,PIN_23,2.5 V,,
+FPGA_RST,Input,PIN_25,2,B2_N0,PIN_25,2.5 V,,
+FPGA_SCL,Output,PIN_112,7,B7_N0,PIN_112,2.5 V,,
+FPGA_SDA,Bidir,PIN_113,7,B7_N0,PIN_113,2.5 V,,
+I2C_SCL,Output,PIN_99,6,B6_N0,PIN_99,2.5 V,,
+I2C_SDA,Bidir,PIN_98,6,B6_N0,PIN_98,2.5 V,,
+IR,Input,PIN_100,6,B6_N0,PIN_100,2.5 V,,
+KEY[3],Input,PIN_91,6,B6_N0,PIN_91,2.5 V,,
+KEY[2],Input,PIN_90,6,B6_N0,PIN_90,2.5 V,,
+KEY[1],Input,PIN_89,5,B5_N0,PIN_89,2.5 V,,
+KEY[0],Input,PIN_88,5,B5_N0,PIN_88,2.5 V,,
+LCD_D[7],Output,PIN_11,1,B1_N0,PIN_11,2.5 V,,
+LCD_D[6],Output,PIN_7,1,B1_N0,PIN_7,2.5 V,,
+LCD_D[5],Output,PIN_10,1,B1_N0,PIN_10,2.5 V,,
+LCD_D[4],Output,PIN_2,1,B1_N0,PIN_2,2.5 V,,
+LCD_D[3],Output,PIN_3,1,B1_N0,PIN_3,2.5 V,,
+LCD_D[2],Output,PIN_144,8,B8_N0,PIN_144,2.5 V,,
+LCD_D[1],Output,PIN_1,1,B1_N0,PIN_1,2.5 V,,
+LCD_D[0],Output,PIN_142,8,B8_N0,PIN_142,2.5 V,,
+LCD_E,Output,PIN_143,8,B8_N0,PIN_143,2.5 V,,
+LCD_RS,Output,PIN_141,8,B8_N0,PIN_141,2.5 V,,
+LCD_RW,Output,PIN_138,8,B8_N0,PIN_138,2.5 V,,
+LDQM,Output,PIN_42,3,B3_N0,PIN_42,2.5 V,,
+LED[3],Output,PIN_84,5,B5_N0,PIN_84,2.5 V,,
+LED[2],Output,PIN_85,5,B5_N0,PIN_85,2.5 V,,
+LED[1],Output,PIN_86,5,B5_N0,PIN_86,2.5 V,,
+LED[0],Output,PIN_87,5,B5_N0,PIN_87,2.5 V,,
+PS_CLOCK,Input,PIN_119,7,B7_N0,PIN_119,2.5 V,,
+PS_DATA,Input,PIN_120,7,B7_N0,PIN_120,2.5 V,,
+SDRAM_A[11],Output,PIN_59,4,B4_N0,PIN_59,2.5 V,,
+SDRAM_A[10],Output,PIN_75,5,B5_N0,PIN_75,2.5 V,,
+SDRAM_A[9],Output,PIN_60,4,B4_N0,PIN_60,2.5 V,,
+SDRAM_A[8],Output,PIN_64,4,B4_N0,PIN_64,2.5 V,,
+SDRAM_A[7],Output,PIN_65,4,B4_N0,PIN_65,2.5 V,,
+SDRAM_A[6],Output,PIN_66,4,B4_N0,PIN_66,2.5 V,,
+SDRAM_A[5],Output,PIN_67,4,B4_N0,PIN_67,2.5 V,,
+SDRAM_A[4],Output,PIN_68,4,B4_N0,PIN_68,2.5 V,,
+SDRAM_A[3],Output,PIN_83,5,B5_N0,PIN_83,2.5 V,,
+SDRAM_A[2],Output,PIN_80,5,B5_N0,PIN_80,2.5 V,,
+SDRAM_A[1],Output,PIN_77,5,B5_N0,PIN_77,2.5 V,,
+SDRAM_A[0],Output,PIN_76,5,B5_N0,PIN_76,2.5 V,,
+SDRAM_BS[1],Output,PIN_74,5,B5_N0,PIN_74,2.5 V,,
+SDRAM_BS[0],Output,PIN_73,5,B5_N0,PIN_73,2.5 V,,
+SDRAM_CAS,Output,PIN_70,4,B4_N0,PIN_70,2.5 V,,
+SDRAM_CKE,Output,PIN_58,4,B4_N0,PIN_58,2.5 V,,
+SDRAM_CLK,Output,PIN_43,3,B3_N0,PIN_43,2.5 V,,
+SDRAM_CS,Output,PIN_72,4,B4_N0,PIN_72,2.5 V,,
+SDRAM_DQ[15],Bidir,PIN_44,3,B3_N0,PIN_44,2.5 V,,
+SDRAM_DQ[14],Bidir,PIN_46,3,B3_N0,PIN_46,2.5 V,,
+SDRAM_DQ[13],Bidir,PIN_49,3,B3_N0,PIN_49,2.5 V,,
+SDRAM_DQ[12],Bidir,PIN_50,3,B3_N0,PIN_50,2.5 V,,
+SDRAM_DQ[11],Bidir,PIN_51,3,B3_N0,PIN_51,2.5 V,,
+SDRAM_DQ[10],Bidir,PIN_52,3,B3_N0,PIN_52,2.5 V,,
+SDRAM_DQ[9],Bidir,PIN_53,3,B3_N0,PIN_53,2.5 V,,
+SDRAM_DQ[8],Bidir,PIN_54,4,B4_N0,PIN_54,2.5 V,,
+SDRAM_DQ[7],Bidir,PIN_39,3,B3_N0,PIN_39,2.5 V,,
+SDRAM_DQ[6],Bidir,PIN_38,3,B3_N0,PIN_38,2.5 V,,
+SDRAM_DQ[5],Bidir,PIN_34,2,B2_N0,PIN_34,2.5 V,,
+SDRAM_DQ[4],Bidir,PIN_33,2,B2_N0,PIN_33,2.5 V,,
+SDRAM_DQ[3],Bidir,PIN_32,2,B2_N0,PIN_32,2.5 V,,
+SDRAM_DQ[2],Bidir,PIN_31,2,B2_N0,PIN_31,2.5 V,,
+SDRAM_DQ[1],Bidir,PIN_30,2,B2_N0,PIN_30,2.5 V,,
+SDRAM_DQ[0],Bidir,PIN_28,2,B2_N0,PIN_28,2.5 V,,
+SDRAM_RAS,Output,PIN_71,4,B4_N0,PIN_71,2.5 V,,
+SDRAM_WE,Output,PIN_69,4,B4_N0,PIN_69,2.5 V,,
+SEG[7],Output,PIN_127,7,B7_N0,PIN_127,2.5 V,,
+SEG[6],Output,PIN_124,7,B7_N0,PIN_124,2.5 V,,
+SEG[5],Output,PIN_126,7,B7_N0,PIN_126,2.5 V,,
+SEG[4],Output,PIN_132,8,B8_N0,PIN_132,2.5 V,,
+SEG[3],Output,PIN_129,8,B8_N0,PIN_129,2.5 V,,
+SEG[2],Output,PIN_125,7,B7_N0,PIN_125,2.5 V,,
+SEG[1],Output,PIN_121,7,B7_N0,PIN_121,2.5 V,,
+SEG[0],Output,PIN_128,8,B8_N0,PIN_128,2.5 V,,
+UART_RXD,Output,PIN_115,7,B7_N0,PIN_115,2.5 V,,
+UART_TXD,Input,PIN_114,7,B7_N0,PIN_114,2.5 V,,
+UDQM,Output,PIN_55,4,B4_N0,PIN_55,2.5 V,,
+altera_reserved_tck,Input,,,,PIN_16,,,
+altera_reserved_tdi,Input,,,,PIN_15,,,
+altera_reserved_tdo,Output,,,,PIN_20,,,
+altera_reserved_tms,Input,,,,PIN_18,,,
