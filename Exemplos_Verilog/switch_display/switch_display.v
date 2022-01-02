@@ -1,5 +1,5 @@
 //*******************************************************
-// Projeto: Utilização dos leds e botões do kit
+// Projeto: Utilização das chaves e display do kit
 // Autor: Diego Nagai (https://github.com/diegonagai)
 //*******************************************************
 
