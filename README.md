@@ -3,7 +3,7 @@
       - Compartilhar documentos e arquivos pertinentes ao **kit EasyFPGA A2.2**, em português e em inglês.     
       - **Reunir usuários brasileiros** desse kit e/ou do CI (Circuito Integrado) FPGA **EP4CE622C8**.    
       - **Compartilhar _scripts_** para FPGA escritos nas linguagems **VHDL e/ou Verilog**, destinados para serem executados no CI EP4CE6E22.   
-      - **Compartilhar projetos**, criados com a ferramenta **Quartus Prime^©^** (Lite), destinados ao uso com o kit em questão.     
+      - **Compartilhar projetos**, criados com a ferramenta **Quartus Prime<sup>©</sup>** (Lite), destinados ao uso com o kit em questão.     
       - Esse repositório aceita sugestões e contribuições, bastando apenas dar um _fork_ aqui e então enviar as contribuições para as pastas adequadas nesse repo.     
       - Outro objetivo desse repositório é **ser um canal/fórum para discussões relacionadas ao kit** EasyFPGA.   
  - Todos os exemplos disponibilizados aqui foram testados no kit FPGA **EZ-EasyFPGA A2.2**, que utiliza o **CI FPGA Altera Cyclone IV EP4CE6E22C8N** e podem ser executados em outros CIs FPGA, desde que realizadas as modificações necessárias no projeto do Qartus Prime.        
@@ -14,31 +14,8 @@
  - Fórum para **discussões e dúvidas**:     
       - Dúvidas e sugestões podem ser criadas no tópico **Issues** acima.      
       - Esse mesmo local também poderá ser utilizado para criar discussões sobre o conteúdo do _repo_.     
-      - As dúvidas postadas aqui poderão ser respondidas tanto pelos autores, quanto por ualquer outro usuário que se sinta confortável em responder à duvida.    
+      - As dúvidas postadas aqui poderão ser respondidas tanto pelos autores, quanto por qualquer outro usuário que se sinta confortável em responder à duvida.    
        
-
-# Sobre as pastas desse repositório:          
- - **Pasta `Docs_Kit`**: Contém arquivos referentes a documentação e _cheat sheets_ para consultas.     
-      - Subpasta **`Configs_Pinos`**: _Cheat sheets_ para consultar sobre os pinos do CI FPGA EP4CE6E22C8N.  
-      - Subpasta **`Datasheets`**:     
-            - _Datasheet_ e _Handbook_ pertinente a linha **Cyclone^©^ IV** da Altera^©^ (arquivosd `Cyclone IV Datasheet.pdf` e `Cyclone IV Handbook.pdf`).    
-            - Arquivo com informações sobre os pinos dos CIs da linha **Cyclone^©^ IV EP4CE6**.     
-            - _Datasheet_ referente ao CI de memória SDRAM incluso no kit (arquivo `HY57V641620FTP.pdf`).      
-      - Subpasta **_EsquemaEletrico_e_Pinagem_**:    
-            - Diagrama equemático do kit, traduzido para o português (arquivo (`Diagrama_Esquematico_RZ-EasyFPGA.pdf`).   
-            - Arquivo com o código a ser inserido nos arquivos `.qsf` do Quartus, para se referir aos pinos do kit (`Pinos_RZEasyFPGA.txt`).    
-      - Subpasta **`Fotos`**: Pasta onde deverão ser colocadas todas as fotos usadas nas documentações desse _repo_.                
- - **Pasta `Exemplos_VHDL`**: Pasta onde deverão ser colocados projetos e códigos para o kit, escritos em VHDL.     
-      - Subpasta **`Scripts_VHDL`**: Arquivos avulsos com código VHDL.       
-      - As **outras subpastas** contém projetos executados no kit EasyFPGA.      
- - **Pasta `Exemplos_Verilog`**: Pasta onde deverão ser colocados projetos e códigos para o kit, escritos em VHDL.     
-      - Subpasta **`Scripts_VHDL`**: Arquivos avulsos com código VHDL.       
-      - As **outras subpastas** contém projetos executados no kit EasyFPGA.      
- - **Pasta `Procedimentos_Quartus`**: Exemplos mostrando como usar alguns recursos importantes do Quartus.     
-      - Subpasta **`Novo_Proj_Quartus`**: Tutorial mostrando como criar um novo projeto, para ser executado no kit EasyFPGA, no Quartus^©^ Prime Lite.    
-      - Subpasta **`Prog_Mem_Flash`**: Tutorial apresentando como salvar um programa na memória flash do kit FPGA.         
-      - Subpasta **`Importar_Confs_Pinos`**: Como importar as configurações dos pinos usando a ferramenta _Pin Planner_ do Quartus Prime.         
-	 
 
 # Links com referências e documentos pertinentes ao kit RZ-EasyFPGA A2.2:       
 ![Kit RZ-EasyFPGA A2.2](./Docs_Kit/Fotos/Foto_Rz-EasyFPGA_A2.2.jpg)       
@@ -55,11 +32,37 @@
 	- http://myosuploads3.banggood.com/products/20200717/20200717013819manual5.rar         
 	 
 
+
+# Sobre as pastas desse repositório:          
+ - **Pasta `Docs_Kit`**: Contém arquivos referentes a documentação e _cheat sheets_ para consultas.     
+      - Subpasta **`Configs_Pinos`**: _Cheat sheets_ para consultar sobre os pinos do CI FPGA EP4CE6E22C8N.  
+      - Subpasta **`Datasheets`**:     
+            - _Datasheet_ e _Handbook_ pertinente a linha **Cyclone<sup>©</sup> IV** da Altera<sup>©</sup> (arquivosd `Cyclone IV Datasheet.pdf` e `Cyclone IV Handbook.pdf`).    
+            - Arquivo com informações sobre os pinos dos CIs da linha **Cyclone<sup>©</sup> IV EP4CE6**.     
+            - _Datasheet_ referente ao CI de memória SDRAM incluso no kit (arquivo `HY57V641620FTP.pdf`).      
+      - Subpasta **_EsquemaEletrico_e_Pinagem_**:    
+            - Diagrama equemático do kit, traduzido para o português (arquivo (`Diagrama_Esquematico_RZ-EasyFPGA.pdf`).   
+            - Arquivo com o código a ser inserido nos arquivos `.qsf` do Quartus, para se referir aos pinos do kit (`Pinos_RZEasyFPGA.txt`).    
+      - Subpasta **`Fotos`**: Pasta onde deverão ser colocadas todas as fotos usadas nas documentações desse _repo_.                
+ - **Pasta `Exemplos_VHDL`**: Pasta onde deverão ser colocados projetos e códigos para o kit, escritos em VHDL.     
+      - Subpasta **`Scripts_VHDL`**: Arquivos avulsos com código VHDL.       
+      - As **outras subpastas** contém projetos executados no kit EasyFPGA.      
+ - **Pasta `Exemplos_Verilog`**: Pasta onde deverão ser colocados projetos e códigos para o kit, escritos em VHDL.     
+      - Subpasta **`ExperimentCode_EasyFPGA`**: Pasta com os projetos inclusos no material baixado nos links acima. Os projetos foram todos reescritos, e os comentários em chinês foram traduzidos para nosso idioma.      
+      - As **outras subpastas** contém projetos executados no kit EasyFPGA.      
+ - **Pasta `Procedimentos_Quartus`**: Exemplos mostrando como usar alguns recursos importantes do Quartus.     
+      - Subpasta **`Novo_Proj_Quartus`**: Tutorial mostrando como criar um novo projeto, para ser executado no kit EasyFPGA, no Quartus<sup>©</sup> Prime Lite.    
+      - Subpasta **`Prog_Mem_Flash`**: Tutorial apresentando como salvar um programa na memória flash do kit FPGA.         
+      - Subpasta **`Importar_Confs_Pinos`**: Como importar as configurações dos pinos usando a ferramenta _Pin Planner_ do Quartus Prime.         
+	 
+
+
+
 # Sobre o Kit FPGA  **RZ-EasyFPGA A2.2**    
 ![Kit RZ-EasyFPGA A2.2](./Docs_Kit/Fotos/Descricao_Placa_Cyclone4_V2.jpg)       
         
  - Especificações do kit:      
-      - CI FPGA: **Altera^©^ Cyclone^©^ IV EP4CE6E22C8N**.        
+      - CI FPGA: **Altera<sup>©</sup> Cyclone<sup>©</sup> IV EP4CE6E22C8N**.        
           - O "N" no final do código gravado no componente é apenas algo como a versão "normal" do componente.        
           - Na ferramenta Quartus Prime, selecionar o dispositivo **EP4CE6E22C8** (lá não tem o CI com final "N").    
           - Esse CI contém **6272 LEs** (_Logic Element_, elementos lógicos) e **92 GPIOs** (_General-Purpose Input/Output_).    
@@ -72,12 +75,12 @@
 # Prós e Contras do Kit RZ-EasyFPGA A2.2
  - **PRÓS**:       
     - Ótimo custo x benefício;
-    - É um CI FPGA fabricado pela Altera^©^.   
+    - É um CI FPGA fabricado pela Altera<sup>©</sup>.   
           - Empresa criadora do primeiro dispositivo de lógica reprogramável, o CI EP300.  
-          - Em 2015 essa empresa foi comprada pela Intel^©^.     
+          - Em 2015 essa empresa foi comprada pela Intel<sup>©</sup>.     
     - Possui diversos periféricos interessantes integrados à placa.
     - Disponibiliza todos os pinos para conexão externa / expansão;
-    - É capaz de rodar o **NIOS II^©^**, o _soft core processor_ da Altera^©^ (atualmente Intel^©^).          
+    - É capaz de rodar o **NIOS II<sup>©</sup>**, o _soft core processor_ da Altera<sup>©</sup> (atualmente Intel<sup>©</sup>).          
 - **CONTRAS**:
       - A documentação é muito ruim e o suporte do fabricante é inexistente;        
           - E quando encontra alguma documentação ou exemplos para serem executados nesse kit, geralmente está em chinês.       

@@ -1,4 +1,7 @@
 # Documentação do Kit RZ-EasyFpga A2.2      
+ - Arquivo **`Esquemas_Eletricos_Ampliados.pdf`**:     
+ 	- _Cheat sheets_ para consultas.      
+	- Contém os esquemas elétricos do kit RzEasyFPGA A2.2, bem como as conexões dos periféricos da placa com o CI FPGA EP4CE6E22C8N.      
  - Arquivos na pasta **`Configs_Pinos`**:      
 	- **`Pinos_Kit_EasyFPGA.xlsx`**: Pasta de trabalho do Excel mostrando os pinos do kit FPGA e os respectivos dispositivos internos conectados ao CI FPGA.             
 	- **`Pinos_EP4CE6E22C8.pdf`**: _Cheat sheet_ com o conteúdo da primeira planilha da pasta de trabalho.       
@@ -7,6 +10,7 @@
 		- No projeto do Quartus Prime, você pode mandar importar um desses arquivos na ferramenta _Pin Planner_ para importar rapidamente todas as configurações de pinos usadas no projeto.      
 		- Em um teste que realizei aqui, a inclusão dos pinos da saída VGA no projeto gerou problemas durante a síntese.        
 		- Caso não utilize a saída VGA do kit, use o arquivo `Config_Pinos_SemVGA.csv`.       
+	- **`Pinos_kit_RzEasyFPGA.csv`**: Outro arquivo .csv que poderá ser importado no _Pin Planner_ do Intel Quartus Prime.       
  - Arquivos na pasta **`Datasheets`**:              
 	- Essa pasta contém os arquivos originais (EM INGLÊS) dos principais componentes do kit FPGA.       
 	- **`Cyclone IV Datasheet.pdf`**     
@@ -17,6 +21,8 @@
 	- **`HY57V641620FTP.pdf`**: _Datasheet_ do CI da SDRAM do kit.        
   - Arquivos na pasta **`EsquemaEletrico_e_Pinagem`**:                
 	- **`Diagrama_Esquematico_RZ-EasyFPGA.pdf`**: Arquivo com o diagrama esquemático do kit FPGA, traduzido para o português.                 
-	- **`Pinos_RZEasyFPGA.txt`**: Arquivo com as especificações dos pinos do kit. O conteúdo desse arquivo pode ser copiado e colado no arquivo `.qsf` do projeto do Quartus Prime.                
+	- **`Pinos_RZEasyFPGA.txt`**: Arquivo com as especificações dos pinos do kit. O conteúdo desse arquivo pode ser copiado e colado no arquivo `.qsf` do projeto do Quartus Prime.        
+	- **`Pinos_EP4CE6E22C8.pdf`**: Arquivo para imprimir. Apresenta as conexões dos periféricos do kit RzEasyFPGA A2.2 com o CI EP4CE6E22C8N.         
+	- **`Esquemas_Eletricos_Ampliados.pdf`**: Arquivo com os esquemas elétricos ampliados.           	
 		
  
