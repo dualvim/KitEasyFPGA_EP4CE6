@@ -28,13 +28,15 @@
 # Foto do projeto em funcionamento:        
 ![Projeto em funcionaento](./Fotos_Resultado/Foto_02.jpg)         
        
- - Um vídeo e duas fotos na pasta **`Fotos_Resultado`**.       
+![Projeto em funcionaento](./Fotos_Resultado/VHDL_Teste_Display7Segs.gif)         
+        
+ - Dois vídeos e três fotos na pasta **`Fotos_Resultado`**.       
            
 
 
 # Pinos do Kit EasyFPGA usados nesse projeto    
  - Pino referente aos pulsos do _clock_:      
-	- **``**
+	- **`FPGA_CLK`**
  - Pinos referentes aos segmentos dos display de 7 segmentos:      
 	- **`SEG[0]`**: Segmento **A**.      
 	- **`SEG[1]`**: Segmento **B**.      
