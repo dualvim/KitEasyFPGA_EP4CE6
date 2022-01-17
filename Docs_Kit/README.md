@@ -1,5 +1,5 @@
 # Documentação do Kit RZ-EasyFpga A2.2      
- - Arquivo **`Esquemas_Eletricos_Ampliados.pdf`**:     
+ - Arquivo **`CheatSheet_RzEasyFPGA_A2.2.pdf`**:     
  	- _Cheat sheets_ para consultas.      
 	- Contém os esquemas elétricos do kit RzEasyFPGA A2.2, bem como as conexões dos periféricos da placa com o CI FPGA EP4CE6E22C8N.      
  - Arquivos na pasta **`Configs_Pinos`**:      
