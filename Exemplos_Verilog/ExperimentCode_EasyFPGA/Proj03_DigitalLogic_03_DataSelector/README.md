@@ -2,19 +2,23 @@
 ![Projeto em funcionamento](./Proj03_DigitalLogic_03_DataSelector.gif)       
        
 
-## Código do projeto     
+# Código do projeto   
+         
+
+## Módulo `mux_2_1`   
 ```verilog     
-module my_mux(input wire [3:0] KEY, output wire [1:0] LED);
-	// Fios conectados aos botoes
-	wire a = ~KEY[0];
-	wire b = ~KEY[1];
-	
-	// Seletor do mux
-	wire sel = ~KEY[2];
-	
-	// Estado do LED
-	assign LED[0] = sel ? b : a;
-	assign LED[1] = 1;
+module mux_2_1( input wire sel, A, B, output wire L );
+		// Selecionar o input
+		assign L = sel ? B : A;
 endmodule
 ```         
         
+
+
+## Módulo principal     
+```verilog
+module demo_ep4ce6( input wire [3:0] KEY, output wire [0:0] LED );
+		mux_2_1 my_mux( .sel(KEY[2]), .A(KEY[0]), .B(KEY[1]), .L(LED[0]) );
+endmodule
+```      
+         
