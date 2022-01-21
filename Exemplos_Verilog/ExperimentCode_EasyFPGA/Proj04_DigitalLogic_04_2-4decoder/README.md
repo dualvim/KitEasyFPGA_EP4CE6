@@ -1,5 +1,5 @@
 # Lógica Digital - Projeto 4 - `my_decode`       
-![Projeto em funcionamento](./Proj04_DigitalLogic_04_2 4decoder.gif)       
+![Projeto em funcionamento](./Proj04_DigitalLogic_04_2-4decoder.gif)       
        
 
 # Código do projeto     
