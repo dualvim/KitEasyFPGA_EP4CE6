@@ -1,4 +1,10 @@
-module half_adder(input wire A, input wire B, output wire S, output wire C);
+/*
+** half_adder.v
+**
+** --> Meio Somador de 1 bit
+*/
+
+module half_adder( input wire A, input wire B, output wire S, output wire C );
 		// Sinais referentes aos LEDs
 		wire sum = A ^ B;   // Resultado da soma
 		wire CO = A & B;   // Resultado do Carry-out

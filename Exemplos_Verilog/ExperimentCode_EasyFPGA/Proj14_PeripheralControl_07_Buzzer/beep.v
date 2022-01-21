@@ -4,18 +4,12 @@
 **
 */
 
-module beep( input wire FPGA_CLK, output wire FPGA_BUZZER );
-		// Variaveis com os sinais
-		wire clk = FPGA_CLK;
-
-		// Declaracao de variaveis
+module beep( input wire clk, output wire buzzer );
+		// Variaveis: Contador e estado do buzzer
 		reg beep_r;
-		reg[27:0]count;
-
-		// Estado do Buzzer:
-		assign FPGA_BUZZER = beep_r;
-
-		// Bloco always executado a cada borda de subida do clock
+		reg [27:0] count;
+		
+		// Bloco always, executado nas bordas de subida do clock, que inplementa 'count'
 		always @ ( posedge clk )
 		begin
 				// Incrementar 'count'
@@ -27,4 +21,7 @@ module beep( input wire FPGA_CLK, output wire FPGA_BUZZER );
 		begin
 				beep_r = !(count[13] & count[24] & count[27]);
 		end
+		
+		// Atribuicao para o buzzer
+		assign buzzer = beep_r;
 endmodule
