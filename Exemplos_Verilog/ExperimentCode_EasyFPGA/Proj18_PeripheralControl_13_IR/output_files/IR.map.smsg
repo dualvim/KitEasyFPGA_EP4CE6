@@ -1,1 +1,0 @@
-Warning (10268): Verilog HDL information at IR.v(230): always construct contains both blocking and non-blocking assignments File: C:/FPGA/Repos_Github/KitEasyFPGA_EP4CE6/Exemplos_Verilog/ExperimentCode_EasyFPGA/Proj20_PeripheralControl_13_IR/IR.v Line: 230
